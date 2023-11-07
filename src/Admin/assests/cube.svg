@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17.6666667px" height="17.6666667px" viewBox="0 0 17.6666667 17.6666667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>convert-3d-cube</title>
+    <g id="scaffcert-main-panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Job-table-after-return" transform="translate(-885.1667, -250.1667)">
+            <g id="Group-11" transform="translate(286, 234)">
+                <g id="Group-17" transform="translate(565, 15)">
+                    <g id="convert-3d-cube" transform="translate(33, 0)">
+                        <g id="Group" transform="translate(1.6667, 1.6667)" fill-rule="nonzero" stroke="#1C1C1C" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16.6666667,10.8333333 C16.6666667,14.0583332 14.0583332,16.6666667 10.8333333,16.6666667 L11.7083359,15.2083333" id="Vector"></path>
+                            <path d="M0,5.83333333 C0,2.60833343 2.60833343,0 5.83333333,0 L4.95833079,1.45833333" id="Vector"></path>
+                        </g>
+                        <g id="Group" transform="translate(11.125, 1.6667)" stroke="#1C1C1C" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round">
+                            <g transform="translate(0.2916, 2.0416)" id="Vector">
+                                <path d="M0,0 L3.31666311,1.91665649 L6.59999847,0.00834147135" fill-rule="nonzero"></path>
+                                <line x1="3.31665039" y1="5.30838013" x2="3.31665039" y2="1.90836589"></line>
+                            </g>
+                            <path d="M0.824991862,1.28329674 C0.374991844,1.53329675 0,2.16662397 0,2.68329064 L0,4.79998986 C0,5.31665653 0.366658519,5.94998375 0.824991862,6.19998376 L2.82499949,7.30833133 C3.24999948,7.54999799 3.94999544,7.54999799 4.38332876,7.30833133 L6.38332367,6.19998376 C6.83332369,5.94998375 7.20832825,5.31665653 7.20832825,4.79998986 L7.20832825,2.68329064 C7.20832825,2.16662397 6.84165701,1.53329675 6.38332367,1.28329674 L4.38332876,0.175000007 C3.95832876,-0.0583333274 3.25833281,-0.0583333274 2.82499949,0.175000007 L0.824991862,1.28329674 Z" id="Vector" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="Group" transform="translate(1.6667, 10.8333)" stroke="#1C1C1C" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round">
+                            <g transform="translate(0.2916, 2.0416)" id="Vector">
+                                <path d="M0,0 L3.30833435,1.91665649 L6.59999847,0.00834147135" fill-rule="nonzero"></path>
+                                <line x1="3.30830892" y1="5.30838013" x2="3.30830892" y2="1.90836589"></line>
+                            </g>
+                            <path d="M0.825004578,1.28329674 C0.37500456,1.53329675 0,2.16662397 0,2.68329064 L0,4.79998986 C0,5.31665653 0.366671234,5.94998375 0.825004578,6.19998376 L2.82499949,7.30833133 C3.24999948,7.54999799 3.94999544,7.54999799 4.38332876,7.30833133 L6.38333639,6.19998376 C6.8333364,5.94998375 7.20832825,5.31665653 7.20832825,4.79998986 L7.20832825,2.68329064 C7.20832825,2.16662397 6.84166973,1.53329675 6.38333639,1.28329674 L4.38332876,0.175000007 C3.94999544,-0.0583333274 3.24999948,-0.0583333274 2.82499949,0.175000007 L0.825004578,1.28329674 Z" id="Vector" fill-rule="nonzero"></path>
+                        </g>
+                        <path d="M20,0 L20,20 L0,20 L0,0 L20,0 Z" id="Vector" opacity="0"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14.5px" height="16.0000143px" viewBox="0 0 14.5 16.0000143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Terms &amp; Conditions</title>
+    <g id="scaffcert-main-panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Delivery-Forms-action" transform="translate(-53.75, -847)">
+            <g id="Group-10" transform="translate(52, 844)">
+                <g id="Terms-&amp;-Conditions" transform="translate(0, 2)">
+                    <line x1="6" y1="9.14996338" x2="11.25" y2="9.14996338" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+                    <line x1="6" y1="12.1499634" x2="9.28500009" y2="12.1499634" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+                    <path d="M10.5,4.5 C12,4.5 12,3.75 12,3 C12,1.5 11.25,1.5 10.5,1.5 L7.5,1.5 C6.75,1.5 6,1.5 6,3 C6,4.5 6.75,4.5 7.5,4.5 L10.5,4.5 Z" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M12,3.01501465 C14.4974999,3.15001465 15.75,4.07251453 15.75,7.50001466 L15.75,12.0000143 C15.75,15.0000143 15,16.5000143 11.25,16.5000143 L6.75,16.5000143 C3,16.5000143 2.25,15.0000143 2.25,12.0000143 L2.25,7.50001466 C2.25,4.08001471 3.50250006,3.15001465 6,3.01501465" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M18,0 L18,18 L0,18 L0,0 L18,0 Z" id="Vector" opacity="0"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

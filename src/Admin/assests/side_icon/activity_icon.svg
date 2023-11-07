@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>activity icon</title>
+    <g id="scaffcert-main-panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Delivery-Forms-action" transform="translate(-53, -565)">
+            <g id="Group-10" transform="translate(52, 562)">
+                <g id="activity-icon" transform="translate(0, 2)">
+                    <path d="M11.25,16.5 C15,16.5 16.5,15 16.5,11.25 L16.5,6.75 C16.5,3 15,1.5 11.25,1.5 L6.75,1.5 C3,1.5 1.5,3 1.5,6.75 L1.5,11.25 C1.5,15 3,16.5 6.75,16.5 L11.25,16.5 Z" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M5.49755859,10.867507 L7.28255868,8.55000687 C7.53755868,8.22000687 8.01005857,8.16000735 8.34005857,8.41500735 L9.71255851,9.49500704 C10.0425585,9.75000704 10.5150584,9.69000699 10.7700584,9.36750698 L12.5025587,7.13250732" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M18,0 L18,18 L0,18 L0,0 L18,0 Z" id="Vector" opacity="0"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

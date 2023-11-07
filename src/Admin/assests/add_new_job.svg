@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>add new job</title>
+    <g id="scaffcert-main-panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-Jobs" transform="translate(-408, -134)">
+            <g id="Group-11" transform="translate(368, 94)">
+                <g id="add-new-job" transform="translate(40, 40)">
+                    <circle id="Oval" fill="#E7E7FF" cx="32" cy="32" r="32"></circle>
+                    <g id="briefcase" transform="translate(16, 16)">
+                        <path d="M21.3332647,29.3333333 C26.6932646,29.3333333 27.6532657,27.1866671 27.9332657,24.5733337 L28.9332657,13.9066671 C29.2932657,10.6533337 28.3599313,8 22.666598,8 L9.3332653,8 C3.639932,8 2.70659831,10.6533337 3.06659832,13.9066671 L4.06659834,24.5733337 C4.34659833,27.1866671 5.30659866,29.3333333 10.6665986,29.3333333 L21.3332647,29.3333333 Z" id="Vector" stroke="#2873B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                        <path d="M10.6666667,8 L10.6666667,6.93333308 C10.6666667,4.5733331 10.6666667,2.66666667 14.9333331,2.66666667 L17.0666669,2.66666667 C21.3333333,2.66666667 21.3333333,4.5733331 21.3333333,6.93333308 L21.3333333,8" id="Vector" stroke="#2873B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                        <path d="M18.6666667,18.6666667 C18.6666667,18.68 18.6666667,18.6800006 18.6666667,18.6933339 C18.6666667,20.1466673 18.6533333,21.3333333 16,21.3333333 C13.36,21.3333333 13.3333333,20.1599997 13.3333333,18.7066663 L13.3333333,17.3333333 C13.3333333,16 13.3333333,16 14.6666667,16 L17.3333333,16 C18.6666667,16 18.6666667,16 18.6666667,17.3333333 L18.6666667,18.6666667 Z" id="Vector" stroke="#2873B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                        <path d="M28.8666662,14.6666667 C25.7866662,16.9066666 22.2666667,18.2400006 18.6666667,18.6933339" id="Vector" stroke="#2873B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                        <path d="M3.49332682,15.0266927 C6.49332682,17.080026 9.87999376,18.3200251 13.333327,18.7066917" id="Vector" stroke="#2873B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                        <path d="M32,0 L32,32 L0,32 L0,0 L32,0 Z" id="Vector" opacity="0" transform="translate(16, 16) rotate(-180) translate(-16, -16)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15.6238725px" height="16px" viewBox="0 0 15.6238725 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Jobs icon</title>
+    <g id="scaffcert-main-panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Delivery-Forms-action" transform="translate(-33.1883, -290)">
+            <g id="Group-10" transform="translate(32, 287)">
+                <g id="Jobs-icon" transform="translate(0, 2)">
+                    <path d="M11.9999614,16.5 C15.0149614,16.5 15.554962,15.2925003 15.7124619,13.8225002 L16.2749619,7.82250023 C16.477462,5.99250019 15.9524614,4.5 12.7499614,4.5 L5.24996173,4.5 C2.04746175,4.5 1.52246155,5.99250019 1.72496156,7.82250023 L2.28746156,13.8225002 C2.44496156,15.2925003 2.98496175,16.5 5.99996173,16.5 L11.9999614,16.5 Z" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M6,4.5 L6,3.89999986 C6,2.57249987 6,1.5 8.39999986,1.5 L9.60000014,1.5 C12,1.5 12,2.57249987 12,3.89999986 L12,4.5" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M10.5,10.5 C10.5,10.5075 10.5,10.5075003 10.5,10.5150003 C10.5,11.3325004 10.4925,12 9,12 C7.51499999,12 7.5,11.3399998 7.5,10.5224998 L7.5,9.75 C7.5,9 7.5,9 8.25,9 L9.75,9 C10.5,9 10.5,9 10.5,9.75 L10.5,10.5 Z" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M16.2374997,8.25 C14.5049998,9.50999996 12.525,10.2600003 10.5,10.5150003" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M1.96499634,8.45251465 C3.65249634,9.60751462 5.55749649,10.3050141 7.49999642,10.5225141" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M18,0 L18,18 L0,18 L0,0 L18,0 Z" id="Vector" opacity="0" transform="translate(9, 9) rotate(-180) translate(-9, -9)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

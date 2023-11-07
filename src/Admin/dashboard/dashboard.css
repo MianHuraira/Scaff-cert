@@ -1,0 +1,25 @@
+.orders_count {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+}
+
+.card_order {
+    height: 30vh;
+    transition: 0.6s;
+
+}
+
+.card_order:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card .card-header {
+    color: #313131;
+}

@@ -1,0 +1,17 @@
+
+.close_btn{
+    padding: 0px;
+    background-color: white !important;
+    border-radius: 100% !important;
+    width: 30px;
+    height: 30px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black !important;
+    border: none !important;
+}
+.close_btn:hover{
+    cursor: pointer;
+    background-color: rgb(232, 229, 229);
+}

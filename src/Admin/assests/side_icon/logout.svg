@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15.58px" height="16.75px" viewBox="0 0 15.58 16.75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Log out</title>
+    <g id="scaffcert-main-panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.85">
+        <g id="Delivery-Forms-action" transform="translate(-33.25, -1005)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Group-5" transform="translate(34, 1002)">
+                <g id="Log-out" transform="translate(0, 3)">
+                    <path d="M3.328,3.072 C1.344,4.352 0,6.528 0,9.024 C0,12.864 3.136,16 7.04,16 C10.944,16 14.08,12.864 14.08,9.024 C14.08,6.528 12.736,4.352 10.752,3.136" id="Path"></path>
+                    <line x1="7.04" y1="0" x2="7.04" y2="5.76" id="Path"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>New JSA Activity</title>
+    <g id="scaffcert-main-panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Forms-activity-add" transform="translate(-498, -134)">
+            <g id="Group-11" transform="translate(458, 94)">
+                <g id="New-JSA-Activity" transform="translate(40, 40)">
+                    <circle id="Oval" fill="#E7E7FF" cx="32" cy="32" r="32"></circle>
+                    <g id="activity" transform="translate(16, 16)">
+                        <path d="M20,29.3333333 C26.6666667,29.3333333 29.3333333,26.6666667 29.3333333,20 L29.3333333,12 C29.3333333,5.33333333 26.6666667,2.66666667 20,2.66666667 L12,2.66666667 C5.33333333,2.66666667 2.66666667,5.33333333 2.66666667,12 L2.66666667,20 C2.66666667,26.6666667 5.33333333,29.3333333 12,29.3333333 L20,29.3333333 Z" id="Vector" stroke="#2873B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                        <path d="M9.7734375,19.3200124 L12.946771,15.2000122 C13.4001043,14.6133455 14.2401041,14.5066797 14.8267708,14.9600131 L17.2667707,16.8800125 C17.8534373,17.3333459 18.6934371,17.2266791 19.1467705,16.6533457 L22.226771,12.680013" id="Vector" stroke="#2873B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                        <path d="M32,0 L32,32 L0,32 L0,0 L32,0 Z" id="Vector" opacity="0"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

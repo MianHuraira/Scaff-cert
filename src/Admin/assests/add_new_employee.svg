@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>add new employee</title>
+    <g id="scaffcert-main-panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Employees-1" transform="translate(-408, -134)">
+            <g id="Group-11" transform="translate(368, 94)">
+                <g id="add-new-employee" transform="translate(40, 40)">
+                    <circle id="Oval" fill="#E7E7FF" cx="32" cy="32" r="32"></circle>
+                    <g id="user-square" transform="translate(16, 16)">
+                        <path d="M19.9999797,29.3333333 L11.9999797,29.3333333 C10.373313,29.3333333 8.98664713,29.1733268 7.8133138,28.8266602 C8.10664713,25.3599936 11.6666463,22.6266276 15.9999797,22.6266276 C20.333313,22.6266276 23.8933122,25.3599936 24.1866455,28.8266602 C23.0133122,29.1733268 21.6266464,29.3333333 19.9999797,29.3333333 Z" id="Vector" stroke="#2873B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                        <path d="M12,2.66666667 C5.33333333,2.66666667 2.66666667,5.33333333 2.66666667,12 L2.66666667,20 C2.66666667,25.04 4.18666744,27.7999935 7.81333415,28.8266602 C8.10666748,25.3599936 11.6666667,22.6266276 16,22.6266276 C20.3333333,22.6266276 23.8933325,25.3599936 24.1866659,28.8266602 C27.8133326,27.7999935 29.3333333,25.04 29.3333333,20 L29.3333333,12 C29.3333333,5.33333333 26.6666667,2.66666667 20,2.66666667 L12,2.66666667 Z M11.2266642,14.1066895 C11.2266642,11.4666894 13.36,9.33333333 16,9.33333333 C18.64,9.33333333 20.7733358,11.4666894 20.7733358,14.1066895 C20.7733358,16.7466895 18.64,18.8933105 16,18.8933105 C13.36,18.8933105 11.2266642,16.7466895 11.2266642,14.1066895 Z" id="Vector" stroke="#2873B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></path>
+                        <path d="M16.000061,18.8933105 C13.360061,18.8933105 11.2267253,16.7466895 11.2267253,14.1066895 C11.2267253,11.4666894 13.360061,9.33333333 16.000061,9.33333333 C18.6400611,9.33333333 20.7733968,11.4666894 20.7733968,14.1066895 C20.7733968,16.7466895 18.6400611,18.8933105 16.000061,18.8933105 Z" id="Vector" stroke="#2873B9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                        <path d="M32,0 L32,32 L0,32 L0,0 L32,0 Z" id="Vector" opacity="0"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

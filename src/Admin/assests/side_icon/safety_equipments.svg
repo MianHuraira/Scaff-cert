@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15.6238725px" height="16px" viewBox="0 0 15.6238725 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Safety Equipments</title>
+    <g id="scaffcert-main-panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Delivery-Forms-action" transform="translate(-33.1883, -455)">
+            <g id="Group-16" transform="translate(32, 452)">
+                <g id="Safety-Equipments" transform="translate(0, 2)">
+                    <path d="M9,13.6499634 C7.34314567,13.6499634 6,12.3068177 6,10.6499634 C6,8.99310905 7.34314567,7.64996338 9,7.64996338 C10.6568543,7.64996338 12,8.99310905 12,10.6499634 C12,12.3068177 10.6568543,13.6499634 9,13.6499634 Z" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></path>
+                    <line x1="9.80246329" y1="11.4824638" x2="8.21246338" y2="9.89996338" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" transform="translate(9.0075, 10.6912) rotate(45) translate(-9.0075, -10.6912)"></line>
+                    <line x1="9.7875402" y1="9.91497803" x2="8.19754028" y2="11.5049779" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" transform="translate(8.9925, 10.71) rotate(45) translate(-8.9925, -10.71)"></line>
+                    <path d="M11.9999614,16.5 C15.0149614,16.5 15.554962,15.2925003 15.7124619,13.8225002 L16.2749619,7.82250023 C16.477462,5.99250019 15.9524614,4.5 12.7499614,4.5 L5.24996173,4.5 C2.04746175,4.5 1.52246155,5.99250019 1.72496156,7.82250023 L2.28746156,13.8225002 C2.44496156,15.2925003 2.98496175,16.5 5.99996173,16.5 L11.9999614,16.5 Z" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M6,4.5 L6,3.89999986 C6,2.57249987 6,1.5 8.39999986,1.5 L9.60000014,1.5 C12,1.5 12,2.57249987 12,3.89999986 L12,4.5" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M16.2375069,8.25 C14.9400069,9.19499999 13.5000073,9.85500026 12.0075073,10.2300003" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M1.96499634,8.45251465 C3.21749631,9.30751464 4.58249643,9.91501453 5.99999642,10.2600145" id="Vector" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M18,0 L18,18 L0,18 L0,0 L18,0 Z" id="Vector" opacity="0" transform="translate(9, 9) rotate(-180) translate(-9, -9)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
