@@ -1,5 +1,5 @@
 import "@styles/react/apps/app-users.scss";
-import ClientDataTable from "./table"
+import ClientDataTable from "./table";
 import "@styles/react/libs/tables/react-dataTable-component.scss";
 import React, { useEffect, useState } from "react";
 import "./table.css";
@@ -84,13 +84,22 @@ const GroupsPage = () => {
 
   // show data start code
   const [data, setData] = useState([]);
-
+  const [selectedOption, setSelectedOption] = useState("All");
   function getData() {
     setIsLoading(true);
     axios
       .post(`${global.BASEURL}getRecords/groups`)
       .then((res) => {
-        setData(res.data.data);
+        const data = res.data.data;
+        if (selectedOption === "New User") {
+          const last5Records = data.slice(0, 3); // Get the last 5 records
+          setData(last5Records);
+        } else {
+          const filteredData = data.filter(
+            (item) => item.status === selectedOption || selectedOption === "All"
+          );
+          setData(filteredData);
+        }
       })
       .catch((error) => {
         console.error("Error fetching data: ", error);
@@ -102,7 +111,7 @@ const GroupsPage = () => {
 
   useEffect(() => {
     getData();
-  }, []);
+  }, [selectedOption]);
 
   // update data
 
@@ -134,7 +143,7 @@ const GroupsPage = () => {
     try {
       const response = await axios.post(`${global.BASEURL}getRecords/rep`);
       const data = response.data.data.map((element) => ({
-        value: element._id,
+        value: element.name,
         label: element.name,
       }));
       return data;
@@ -144,9 +153,6 @@ const GroupsPage = () => {
     }
   };
 
-
-
-
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchRepData();
@@ -155,7 +161,7 @@ const GroupsPage = () => {
 
     fetchData();
   }, []);
-  
+
   // end get rep
   // delet
 
@@ -289,7 +295,6 @@ const GroupsPage = () => {
     { label: "Active", value: "Active" },
     { label: "Un Active", value: "Un Active" },
   ];
- 
 
   // Step 2: Add state for managing modal visibility
   const [editGroup, seteditGroup] = useState(false);
@@ -399,14 +404,8 @@ const GroupsPage = () => {
             </Modal>
 
             {/* edit modal */}
-            <Modal
-              isOpen={editGroup}
-              toggle={groupEditModal} 
-              size="lg"
-            >
-              <ModalHeader
-                toggle={groupEditModal} 
-              ></ModalHeader>
+            <Modal isOpen={editGroup} toggle={groupEditModal} size="lg">
+              <ModalHeader toggle={groupEditModal}></ModalHeader>
               <ModalBody>
                 <div className="icon_div_main mb-2">
                   <img className="icon_sizee" src={group_icon} alt="" />
@@ -507,32 +506,40 @@ const GroupsPage = () => {
               </DropdownToggle>
               <DropdownMenu>
                 <DropdownItem
-                  href="/"
                   tag="a"
-                  onClick={(e) => e.preventDefault()}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedOption("All");
+                  }}
                 >
                   All
                 </DropdownItem>
                 <DropdownItem
-                  href="/"
                   tag="a"
-                  onClick={(e) => e.preventDefault()}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedOption("New User");
+                  }}
                 >
                   New User
                 </DropdownItem>
                 <DropdownItem
-                  href="/"
                   tag="a"
-                  onClick={(e) => e.preventDefault()}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedOption("Active");
+                  }}
                 >
                   Active User
                 </DropdownItem>
                 <DropdownItem
-                  href="/"
                   tag="a"
-                  onClick={(e) => e.preventDefault()}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedOption("Un Active");
+                  }}
                 >
-                  Blocked User
+                  Un Active
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledButtonDropdown>
