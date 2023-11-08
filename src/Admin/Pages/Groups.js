@@ -134,7 +134,7 @@ const GroupsPage = () => {
     try {
       const response = await axios.post(`${global.BASEURL}getRecords/rep`);
       const data = response.data.data.map((element) => ({
-        value: element._id,
+        value: element.name,
         label: element.name,
       }));
       return data;
