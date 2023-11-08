@@ -920,7 +920,7 @@ const Clientpage = () => {
         <div className="d-flex align-items-center">
           <div>
             <Button className="default_btn" outline onClick={toggleLargeModal}>
-              Add Client
+              Add Client dsd
             </Button>
 
             {/* add client modal */}
