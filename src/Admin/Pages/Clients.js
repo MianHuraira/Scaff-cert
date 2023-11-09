@@ -72,7 +72,8 @@ const AutoFill = ({
   isSEmailValid,
   setSEmailError,
   sEmailError,
-  setJoining_date
+  setJoining_date,
+  joining_date,
 }) => {
   const [value, setValue] = useState(null);
 
@@ -148,7 +149,6 @@ const AutoFill = ({
                   onChange={(e) => setJoining_date(e.target.value)}
                   type="date"
                 />
-              
               </Col>
               <Col className="mb-2" lg="6" md="12">
                 <Label className="value_font input_label">Phone Number</Label>
@@ -237,7 +237,6 @@ const AutoFill = ({
                 <Label className="value_font input_label">City</Label>
                 <Input
                   onChange={(e) => setCity(e.target.value)}
-                  value={city}
                   type="text"
                   placeholder="City"
                 />
@@ -366,7 +365,14 @@ const AutoFill = ({
                   <div className="error_mssg">Invalid email address</div>
                 )}
               </Col>
-
+              <Col className="mb-2" lg="6" md="12">
+                <Label className="value_font input_label">Joining Date</Label>
+                <Input
+                  onChange={(e) => setJoining_date(e.target.value)}
+                  defaultValue={defaultData_?.joining_date}
+                  type="date"
+                />
+              </Col>
               <Col className="mb-2" lg="6" md="12">
                 <Label className="value_font input_label">Phone Number</Label>
                 <Input
@@ -582,35 +588,35 @@ const Clientpage = () => {
 
   const postData = (e) => {
     e.preventDefault();
-    if (
-      !name ||
-      !email ||
-      !emailSecondary ||
-      !joining_date ||
-      !phone ||
-      !address ||
-      !city ||
-      !state ||
-      !zip_code ||
-      !country ||
-      !status
-    ) {
-      toast.error("Please fill out all  fields.");
-      return;
-    }
+    // if (
+    //   !name ||
+    //   !email ||
+    //   !emailSecondary ||
+    //   !joining_date ||
+    //   !phone ||
+    //   !address ||
+    //   !city ||
+    //   !state ||
+    //   !zip_code ||
+    //   !country ||
+    //   !status
+    // ) {
+    //   toast.error("Please fill out all  fields.");
+    //   return;
+    // }
 
-    if (!isEmailValid(email)) {
-      toast.error("Enter valid email address.");
-      return;
-    }
-    if (!isSEmailValid(email)) {
-      toast.error("Enter valid email address.");
-      return;
-    }
-    if (!isPhoneValidAustralia(phone)) {
-      toast.error("Enter valid Phone address.");
-      return;
-    }
+    // if (!isEmailValid(email)) {
+    //   toast.error("Enter valid email address.");
+    //   return;
+    // }
+    // if (!isSEmailValid(email)) {
+    //   toast.error("Enter valid email address.");
+    //   return;
+    // }
+    // if (!isPhoneValidAustralia(phone)) {
+    //   toast.error("Enter valid Phone address.");
+    //   return;
+    // }
 
     setName("");
     setEmail("");
@@ -625,7 +631,7 @@ const Clientpage = () => {
     setStatus("");
 
     axios
-      .post(`${global.BASEURL}createClient`, {
+      .post(`${global.BASEURL}createRecord/client`, {
         name,
         email,
         joining_date,
@@ -707,7 +713,7 @@ const Clientpage = () => {
     }
 
     axios
-      .post(`${global.BASEURL}updateClient`, {
+      .post(`${global.BASEURL}updateRecord/client`, {
         id: itemId,
         name,
         email,
@@ -804,9 +810,10 @@ const Clientpage = () => {
     },
     {
       name: "Joining Date",
-      cell: (row) => row.joining || "N/A",
+      cell: (row) => row.joining_date,
       sortable: "true",
-      maxWidth: "2rem",
+      maxWidth: "4rem",
+      width: "10rem",
     },
     {
       name: "Status",
@@ -838,6 +845,7 @@ const Clientpage = () => {
         </div>
       ),
       sortable: true,
+      with: "5rem",
     },
     {
       name: "Action",
@@ -915,12 +923,12 @@ const Clientpage = () => {
       <ToastContainer />
 
       <div className="d-flex align-align-items-center justify-content-between mt-3 mb-3">
-        <h5 className="head_title"> Clients ds</h5>
+        <h5 className="head_title"> Clients</h5>
 
         <div className="d-flex align-items-center">
           <div>
             <Button className="default_btn" outline onClick={toggleLargeModal}>
-              Add Client dsd
+              Add Client
             </Button>
 
             {/* add client modal */}
@@ -993,6 +1001,8 @@ const Clientpage = () => {
               setSEmailError={setSEmailError}
               isSEmailValid={isSEmailValid}
               sEmailError={sEmailError}
+              joining_date={joining_date}
+              setJoining_date={setJoining_date}
             />
 
             <Modal isOpen={isDeleteModalOpen}>
