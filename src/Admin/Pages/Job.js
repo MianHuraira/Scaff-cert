@@ -14,7 +14,7 @@ import cube from "../../Admin/assests/cube.svg";
 import mini_truck from "../../Admin/assests/mini-truck.svg";
 import mini_full from "../../Admin/assests/mini-full.svg";
 import check from "../../Admin/assests/check.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import {
   UncontrolledButtonDropdown,
   UncontrolledDropdown,
@@ -495,14 +495,20 @@ const JobPage = () => {
       name: "Inspection",
       cell: (row) => (
         <div>
-          <h5 className="inspc cursor_p">Inspection</h5>
+          {row.day_hire === "true" ? (
+            <NavLink to={"/hire_job"}  className="inspc cursor_p mb-2">
+              Dray Hire
+            </NavLink>
+          ) : (
+            <NavLink to={"/InspectionForm"} className="inspc cursor_p mb-2">Inspection</NavLink>
+          )}
           {row.status !== "Complete" && (
-            <h5
+            <div
               onClick={() => togglaModalCompl(row._id, row.status)}
               className="comL cursor_p"
             >
               Complete
-            </h5>
+            </div>
           )}
         </div>
       ),

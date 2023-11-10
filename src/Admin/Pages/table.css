@@ -345,14 +345,16 @@
 
 .inspc {
   color: #416fea;
-  font-family: Avenir-regular;
+  font-family: "Avenir-regular";
   text-decoration: underline;
+  font-size: 14px;
 }
 
 .comL {
   color: #de7239;
-  font-family: Avenir-regular;
+  font-family: "Avenir-regular";
   text-decoration: underline;
+  font-size: 14px;
 }
 
 .check_div {
