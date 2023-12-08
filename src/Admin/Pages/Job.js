@@ -160,6 +160,7 @@ const JobPage = () => {
 
   // show data start code
   const [data, setData] = useState([]);
+  console.log("data is ", data[0]?.client.name);
 
   function getData() {
     setIsLoading(true);
@@ -178,8 +179,8 @@ const JobPage = () => {
 
   useEffect(() => {
     getData();
-    branchDataGet(); ///// branch api
-    clientDataGet(); ///// client api
+    branchDataGet();
+    clientDataGet();
   }, []);
 
   // update data
@@ -355,7 +356,7 @@ const JobPage = () => {
     },
     {
       name: "Client",
-      selector: (row) => row.client,
+      selector: (row) => row.client.name || row.client,
       sortable: "true",
       // maxWidth:"6rem"
     },
@@ -496,11 +497,13 @@ const JobPage = () => {
       cell: (row) => (
         <div>
           {row.day_hire === "true" ? (
-            <NavLink to={"/hire_job"}  className="inspc cursor_p mb-2">
+            <NavLink to={"/hire_job"} className="inspc cursor_p mb-2">
               Dray Hire
             </NavLink>
           ) : (
-            <NavLink to={"/InspectionForm"} className="inspc cursor_p mb-2">Inspection</NavLink>
+            <NavLink to={"/InspectionForm"} className="inspc cursor_p mb-2">
+              Inspection
+            </NavLink>
           )}
           {row.status !== "Complete" && (
             <div
@@ -1027,7 +1030,11 @@ const JobPage = () => {
           <div className="ms-2">
             <UncontrolledButtonDropdown>
               <DropdownToggle className="filter_btn">
-                <img className="filter_img" src="./icons/filter_icon.png" />
+                <img
+                  className="filter_img"
+                  alt=""
+                  src="./icons/filter_icon.png"
+                />
               </DropdownToggle>
               <DropdownMenu>
                 <DropdownItem

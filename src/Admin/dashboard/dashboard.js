@@ -45,7 +45,6 @@ const AdminDashboard = () => {
         const resp = res.data.data;
         const filterData = resp.filter((item) => item.day_hire === "true");
         setData(filterData?.length);
-        console.log(filterData.length);
       })
       .finally(() => {
         setIsLoading(false);
